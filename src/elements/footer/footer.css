@@ -1,0 +1,101 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #eeeeee;
+    padding: 20px;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-about, .footer-links, .footer-social, .footer-subscribe {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo p {
+    color: #3d3d3d;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-links p, .footer-links h3, .footer-social h3, .footer-subscribe h3, .footer-about p{
+    color: #3d3d3d;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.footer-about h3 {
+    color: #3d3d3d;
+    margin: 10px 0;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-rights {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 16px;
+}
+
+.footer-rights hr {
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    height: 3px;
+    background: #868686;
+}
+
+.img-socials {
+    width: 30px;
+    height: auto;
+}
+
+.img-logo {
+    width: 100px;
+    height: auto;
+}
+
+.footer-subscribe form {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-subscribe input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.footer-subscribe button {
+    padding: 10px 20px;
+    border: none;
+    background: #3d3d3d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
